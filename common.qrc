@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/common">
+        <file>hyphen.jpg</file>
+    </qresource>
+</RCC>
