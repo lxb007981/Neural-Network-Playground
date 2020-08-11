@@ -1,7 +1,7 @@
 # A Neural Network Based Image Classifier Using C++
 
 ## Overview
-- A toy Neural Network-based linear image classifier. It is designed to be trained on any grayscale dataset.
+- A toy Neural Network-based image classifier using OpenCV. It is designed to be trained on any grayscale dataset.
   
 ## Dependencies and Installation
 - C++ >= 17
@@ -9,9 +9,11 @@
 - Visual Studio>=2017
 - Qt 5.12.5 MSVC 2017 64-bit
 
-- install the extension "Qt VS Tools" in Visual Studio marketplace
-- add Qt 5.12.5 MSVC 2017 64-bit in Qt Maintenance Tool
-- set the C++ language standard in Visual Studio by Visual Studio:  `Debug->project properties->C/C++->Language->C++ Language - Standard->ISO C++17 Standard (/std:c++17)`
+1. install the extension "Qt VS Tools" in Visual Studio marketplace
+
+2. add Qt 5.12.5 MSVC 2017 64-bit in Qt Maintenance Tool
+
+3. set the C++ language standard in Visual Studio by Visual Studio:  `Debug->project properties->C/C++->Language->C++ Language - Standard->ISO C++17 Standard (/std:c++17)`
 
 ## How to use It
 - **[Part 1] Train the networks**
