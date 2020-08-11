@@ -9,16 +9,18 @@
 - Visual Studio>=2017
 - Qt 5.12.5 MSVC 2017 64-bit
 
-1. install the extension "Qt VS Tools" in Visual Studio marketplace
+1. Install the extension `Qt VS Tools` in Visual Studio marketplace
 
-2. add Qt 5.12.5 MSVC 2017 64-bit in Qt Maintenance Tool
+2. Add `Qt 5.12.5 MSVC 2017 64-bit` in Qt Maintenance Tool
 
-3. set the C++ language standard in Visual Studio by Visual Studio:  `Debug->project properties->C/C++->Language->C++ Language - Standard->ISO C++17 Standard (/std:c++17)`
+3. Set the C++ language standard in Visual Studio by Visual Studio:  `Debug->project properties->C/C++->Language->C++ Language - Standard->ISO C++17 Standard (/std:c++17)`
 
 ## How to use It
 - **[Part 1] Train the networks**
-    1. Open the file "widgetTest.pro" in Qt VS Tools, Visual Studio will create a .sln file based on the .pro file, save the .sln file and open it afterwards.
-    2. Use Ctrl + Alt + L to open Solution Explorer, click Add->Existing Items, add DataLoader.cpp, DataLoader.h, FullyConnectedNet.cpp, FullyConnectedNet.h, Solver.cpp, Solver.h
+    1. Open the file `widgetTest.pro` in Qt VS Tools, Visual Studio will create a `.sln` file based on the `.pro` file, save the `.sln` file and open it afterwards.
+   
+    2. Use `Ctrl + Alt + L` to open Solution Explorer, click `Add->Existing Items`, add `DataLoader.cpp`, `DataLoader.h`, `FullyConnectedNet.cpp`, `FullyConnectedNet.h`, `Solver.cpp`, `Solver.h`
+
     3. Upload a dataset by pressing the Upload button. The dataset should be organized in the following folder.
  
         ```
@@ -43,9 +45,9 @@
     6. Press Run button to train the networks
 
 - **[Part 2] Get Prediction**
-    1. trun on **test mode**
+    1. turn on `test mode`
    
-    2. press **run** button to get the prediction
+    2. press `run` button to get the prediction
 
 **Special Notes**: Inappropriate hyperparameters might cause gradient vanishing.
 
